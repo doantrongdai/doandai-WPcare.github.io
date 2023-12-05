@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <title>WordPressに特化した保守・セキュリティ管理</title>
+
+    <link rel="canonical" href="https://www.fortuna-inc.jp/wpcare/" />
+    <meta name="description" content="すべての外的脅威からWordPressサイトを保護。安心して運用していただくためにサイトを守るサポートプランです。Wordpressサイトへのマルウェア感染やデータ改ざん、パスワード総当りによる第三者の不正ログイン等の脅威は年々増しています。FORTUNAでは、Wordpressサイトを安心して運用できるように、2種類のセキュリティ対策・メンテナンスプランをご用意いたしました。" />
+    <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="WordPressに特化した保守・セキュリティ管理" />
+    <meta property="og:description" content="すべての外的脅威からWordPressサイトを保護。安心して運用していただくためにサイトを守るサポートプランです。Wordpressサイトへのマルウェア感染やデータ改ざん、パスワード総当りによる第三者の不正ログイン等の脅威は年々増しています。FORTUNAでは、Wordpressサイトを安心して運用できるように、2種類のセキュリティ対策・メンテナンスプランをご用意いたしました。" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="WordPressに特化した保守・セキュリティ管理" />
+    <meta property="og:image" content="https://www.fortuna-inc.jp/wpcare/assets/images/ogp.png" />
+    <meta property="og:image:secure_url" content="https://www.fortuna-inc.jp/wpcare/assets/images/ogp.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="すべての外的脅威からWordPressサイトを保護。安心して運用していただくためにサイトを守るサポートプランです。Wordpressサイトへのマルウェア感染やデータ改ざん、パスワード総当りによる第三者の不正ログイン等の脅威は年々増しています。FORTUNAでは、Wordpressサイトを安心して運用できるように、2種類のセキュリティ対策・メンテナンスプランをご用意いたしました。" />
+    <meta name="twitter:title" content="WordPressに特化した保守・セキュリティ管理" />
+    <meta name="twitter:image" content="https://www.fortuna-inc.jp/wpcare/assets/images/ogp.png" />
+
+    <link rel="icon" href="assets/images/favicon.png" sizes="32x32" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/aos.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8714478.js"></script>
+    <!-- End of HubSpot Embed Code -->
+
+    <meta name="google-site-verification" content="hXnvSWtrHanvNpylqHi6Pf9w1GxRZcD2qXqCFxwf9Lc" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-54223060-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-54223060-1');
+    </script>
+
+
+</head>
+
+<body>
+    <div class="wpc-Wrapper">
+        <header class="wpc-Header">
+            <div class="wpc-Header_Content">
+                <div class="wpc-Fortuna_Logo">
+                    <h1><a href="/"><img src="assets/images/fortuna_logo.svg" alt="Fortuna"></a></h1>
+                </div>
+                <div class="wpc-Logo">
+                    <h1><a href="#"><img src="assets/images/WPcare_logo_head.png" alt="Wordpres Care"></a></h1>
+                </div>
+                <div class="wpc-Header_Hamburger">
+                    <div class="btn">
+                        <div class="hamburger"><span></span><span></span><span></span></div>
+                    </div>
+                </div>
+                <div class="wpc-Header_Nav">
+                    <nav id="global" class="global">
+                        <ul>
+                            <li class="">
+                                <a class="onenav" href="#wp-care">WP care là gì?</a>
+                            </li>
+                            <li class="">
+                                <a class="onenav" href="#faq">Câu hỏi thường gặp</a>
+                            </li>
+                            <li class="">
+                                <a class="onenav" href="#prices">PRICE</a>
+                            </li>
+                            <li class="contact">
+                                <a href="https://www.fortuna-inc.jp/contact/" target="_blank">Kích để nhận tư vấn và đăng ký</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="btn-contact" href="https://www.fortuna-inc.jp/contact/" target="_blank">Kích để nhận tư vấn và đăng ký</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <p class="yellow_back"><span>Không tính phí khởi tạo hoặc chi phí nghiên cứu.</span></p>
+                    <h1><span>Bảo vệ trang web khỏi </span><br />mọi đe dọa bên ngoài.</h1>
+                    <a href="https://www.fortuna-inc.jp/contact/" target="_blank">Kích để nhận tư vấn và đăng ký</a>
+                </div>
+            </section>
+            <div id="wp-care">
+                <section class="block wp-care" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <img src="assets/images/logo-wp.svg" alt="Wordpress">
+                                <p class="wp-content">
+                                    Nguy cơ nhiễm malware, sửa đổi dữ liệu, thử mật khẩu tự động và đăng nhập không</br> hợp pháp ngày càng tăng cao đối với các
+                                    trang web sử dụng hệ thống Wordpress. </br>
+                                    Tại MONCOW, chúng tôi đã chuẩn bị sẵn 2 phương án bảo mật giúp bạn có thể yên tâm </br>vận hành trang web Wordpress của mình.
+                    
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 offset-lg-2 text-center pb-5 pb-lg-0 col-left" data-aos="fade-up" data-aos-easing="ease">
+                                <div class="circle">
+                                    <img src="assets/images/ico_security.png" alt="security">
+                                </div>
+                                <h3>Người dùng và doanh nghiệp<br>có thể vận hành và quản lý một cách an tâm</h3>
+                                <p>MONCOW đã chuẩn bị hai loại phương án bảo mật phù hợp với khách hàng để đảm bảo an toàn khi vận hành trang web
+                                WordPress.
+</p>
+                                <div class="btnWrap"><a href="#prices" style="text-decoration:underline;">Xác nhận PRICE</a></div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 text-center col-right" data-aos="fade-up" data-aos-easing="ease" data-aos-delay="300">
+                                <div class="circle">
+                                    <img src="assets/images/ico_maint.png" alt="maintenance">
+                                </div>
+                                <h3>Sử dụng phần mềm mới nhất.<br> Cập nhật, bảo trì định kỳ.
+                                </h3>
+                                <p>Ngoài việc đảm bảo điều kiện bảo mật khi triển khai, chúng tôi tiếp tục duy trì bảo trì liên tục sau đó.</br>
+                                Để đảm bảo hệ thống an toàn và thoải mái khi sử dụng, đội ngũ kỹ thuật viên chuyên nghiệp sẽ thực hiện bảo trì bằng phần
+                                mềm mới nhất.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End Section-->
+                <section id="socu-01" class="block socu-01 socu-main" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="row flex-column-reverse flex-md-row">
+                            <div class="col-12 col-md-6 content-sema">
+                                <h3>SECURITY</h3>
+                                <h2>Ngăn chặn đăng nhập trái phép và phòng tránh tấn công từ bên ngoài.</h2>
+                                <p>Chúng tôi cung cấp hỗ trợ quản lý ứng dụng để đảm bảo rằng người dùng và doanh nghiệp có thể sử dụng và quản lý một cách
+                                an tâm. Hành vi xâm nhập vào máy chủ hoặc WordPress với ý đồ xấu của bất kỳ bên thứ ba không có quyền truy cập sẽ bị ngăn chặn.
+                                </p>
+                                <a class="btn-link open-content" href="#socu-content-01">Các biện pháp phòng chống chủ yếu</a>
+                            </div>
+                            <div class="col-12 col-md-6 order-md-1">
+                                <img class="w-100" src="assets/images/sec01.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="socu-content-01" class="socu-content socu-content-01">
+                        <div class="container" data-aos-duration="1000">
+                            <button class="btn-close"></button>
+                            <h3>主なセキュリティ対応策(<span>Wordpressへの攻撃</span>)</h3>
+                            <table class="table-socu01">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">項目</th>
+                                        <th scope="col">施工</th>
+                                        <th scope="col">対策と内容</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="項目">不正アクセス対策:一定時間で強制ログアウト</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">ログインしたユーザーを一定時間で強制ログアウトさせる設定を行います。標準:180分</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">不正アクセス対策:ログイン試回の制限(1)</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">ログインに数回失敗すると、そのIPアドレスを自動的に一定時間「ログイン禁止状態」にします。標 準:3回</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">不正アクセス対策:ログイン試回の制限(2)</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">ログインの試回制限を設定します。試回の有効時間:標準5分/再ログイン禁止時間:標準10分</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">不正アクセス対策:ログイン失敗時のエラーメッセージ</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">ログインに失敗した際、何が間違っているか(IDなのかパスワードなのか等)を表示せず、 通常のエラーメッセージのみを返します。</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">不正アクセス対策:登録されているユーザー名以外のア クセスを制限</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">登録しているユーザー名以外のユーザー名を入力すると、そのIPアドレスを即「ログイン禁止状態」にします。</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">不正アクセス対策:ログイン画面を隠す</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">
+                                            WordPressのログインファイルとURL(wp-login.phpとwp-admin)を悪意のあるユーザーから改ざんを防止するため任意のURLへ変更致します。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">「ログイン禁止状態」になった場合のメール通知</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">「ログイン禁止状態」になると、禁止になったアカウントに紐づくメールアドレス宛に通知します。</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">不正アクセス対策:悪質なbot対策</td>
+                                        <td data-label="施工">△</td>
+                                        <td data-label="対策と内容">ログイン画面にbot(コンピュータ・ウイルス)が自動ログインしてくる場合があります。 Googleが開発した画像認証システム等を使用し、botがログインを出来ないように致します。
+                                            <span class="color-red d-block">※使いやすさに関係する箇所ですので、施行するかどうかは協議の上決定します。</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">不正アクセス対策:運用パスワードの定期変更</td>
+                                        <td data-label="施工">△</td>
+                                        <td data-label="対策と内容">パスワード漏洩を防ぐため、定期的にログインパスワードを変更いたします。
+                                            <span class="color-red d-block">※定期間は協議の上決定します。</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">「ログイン禁止状態」の解除申請</td>
+                                        <td data-label="施工">TEL</td>
+                                        <td data-label="対策と内容">「ログイン禁止状態」になったアカウントが解除申請を行う場合は、弊社にお電話にてご連絡下さい。</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                            <h3>主なセキュリティ対応策(<span>サーバーへの攻撃</span>)</h3>
+                            <table class="table-socu01">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">項目</th>
+                                        <th scope="col">施工</th>
+                                        <th scope="col">対策と内容</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="項目">ファイルのバックアップと復元</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">バックアップ機能を利用し､ サイトを丸ごとバックアップします</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">システムファイル保護（１）</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">
+                                            WordPressの重要ファイル、ディレクトリのパーミッションチェックを行い保護します。改ざんを防止するためアクセス制限設定を致します。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">システムファイル保護（２）</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">
+                                            WordPressの重要ファイル「xmlrpc.php」は、管理画面以外から記事の投稿などができるようにするための設定ファイルですが、使用していない場合無効にし改ざんから保護します。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">改ざんの対策：データベース改ざんの保護(1)</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">
+                                            WordPress初期設定のデータベース・テーブル名の接頭辞を変更しておくことで、SQLインジェクションや特定のテーブルに対する攻撃を防ぎます。
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">改ざんの対策：データベース改ざんの保護(2)</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">DBへの不審なアクセスをWebサイト上でフィルタリングを設定しアクセス出来ないように致します。</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">改ざんの対策：データベース改ざんの保護(3)</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">サーバーに用意されているDB設定画面「phpmyadmin」にアクセス制限を行います。
+                                            <span class="d-block">※ご使用のサーバープランによって異なります</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">改ざんの対策：データベースの定期バックアップ</td>
+                                        <td data-label="施工">標準</td>
+                                        <td data-label="対策と内容">データベースの情報の改ざん等の非常事態のためにバックアップ10世代を定期的に実行致します。
+                                            <span class="d-block">※対象範囲：SQL、html+CSS、imagesなどの画像や資料</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="項目">コメントスパム対策</td>
+                                        <td data-label="施工">△</td>
+                                        <td data-label="対策と内容">ユーザーエージェントを判別してbotが投稿するスパムコメントを拒否するよう設定致します。
+                                            <span class="d-block">※ユーザーコメントが書き込めるサイトに限ります。</span></td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <!--End Section-->
+                <section id="socu-02" class="block socu-02 socu-main" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-12 col-md-6">
+                                <img class="w-100" src="assets/images/sec02.png" alt="">
+                            </div>
+                            <div class="col-12 col-md-6 content-sema">
+                                <h3>SECURITY</h3>
+                                <h2>Hỗ trợ khẩn cấp</h2>
+                                <p>Để bạn có thể sử dụng và quản lý một cách an tâm mọi lúc. Đội ngũ của chúng tôi sẽ hỗ trợ bảo vệ doanh nghiệp và trang web trong mọi trường hợp khẩn cấp.
+                                </p>
+                                <a class="btn-link open-content" href="#socu-content-02">Nội dung hỗ trợ</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="socu-content-02" class="socu-content socu-content-02">
+                        <div class="container">
+                            <button class="btn-close"></button>
+
+                            <table class="table-socu02">
+                                <thead>
+                                    <th colspan="2" class="col-55">Nội dung dịch vụ</th>
+                                    <th class=" col-15">WP Care</th>
+                                    <th class="col-plus col-15">WP Care Plus</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2" class="text-center color-green col-15">24時間対応</td>
+                                        <td data-label="サービス内容" class="col-65">ログ記録</td>
+                                        <td data-label="WPケア" class="td-align col-15">○</td>
+                                        <td data-label="WPケアPlus" class="td-align col-15">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">トラフィック記録※1</td>
+                                        <td data-label="WPケア" class="td-align">○</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="5" class="text-center color-green">体制</td>
+                                        <td data-label="サービス内容">メール対応</td>
+                                        <td data-label="WPケア" class="td-align">○</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">電話対応</td>
+                                        <td data-label="WPケア" class="td-align">○</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">セキュリティ通知※2</td>
+                                        <td data-label="WPケア" class="td-align">○</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">専任エンジニア</td>
+                                        <td data-label="WPケア" class="td-align">&nbsp;</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">サーバー会社との連携</td>
+                                        <td data-label="WPケア" class="td-align">&nbsp;</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="9" class="text-center color-conser">保守・監視</td>
+                                        <td data-label="サービス内容">障害一次対応（再起動・復旧）</td>
+                                        <td data-label="WPケア" class="td-align">※３</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">障害一次対応（調査）</td>
+                                        <td data-label="WPケア" class="td-align">&nbsp;</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">Wordpressソフトウェア・セキュリティプラグインのアップデート</td>
+                                        <td data-label="WPケア" class="td-align">○</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">監視設計・導入</td>
+                                        <td data-label="WPケア" class="td-align">&nbsp;</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">ログ調査</td>
+                                        <td data-label="WPケア" class="td-align">&nbsp;</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">トラフィック調査</td>
+                                        <td data-label="WPケア" class="td-align">&nbsp;</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">脆弱性情報の共有</td>
+                                        <td data-label="WPケア" class="td-align">△※影響度による</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">セキュリティ提案</td>
+                                        <td data-label="WPケア" class="td-align">○</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="サービス内容">当月作業報告レポート（定期送信）</td>
+                                        <td data-label="WPケア" class="td-align">&nbsp;</td>
+                                        <td data-label="WPケアPlus" class="td-align">○</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="text-center">
+                                <p class="small">
+                                    ※障害対応・保守サポートは平日業務時間帯 10:00-17:00 での対応。 <br> ※サイトからご契約が可能です。完全自社体制でご提供します。
+                                    <br> ※1 使用しているサーバーによっては、トラフィックが記録できないものもあります。<br> ※2 Wordpressへ不正アクセスを試みた形跡等があった場合、弊社からお電話やメールにてご連絡させて頂きます。<br> ※3 「WPケア」プランのご契約ですと、障害一次対応（再起動・復旧）が発生した場合、作業費用は別途ご請求となります。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End Section-->
+                <section id="socu-03" class="block socu-03 socu-main" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="row flex-column-reverse flex-md-row">
+                            <div class="col-12 col-md-6 content-sema">
+                                <h3>SECURITY</h3>
+                                <h2>Hỗ trợ liên kết với nhà cung cấp máy chủ</h2>
+                                <p>WordPressが稼働するホスティング、VPS、クラウドサーバーすべてのお客様へ対応。 ネットワーク設定や変更､ アクセスとコンテンツ増減に合わせたサーバーのスケール調整など専門技術的な取次することで運用負荷を軽減いたします。
+                                </p>
+                                <a class="btn-link open-content" href="#socu-content-03">Chi tiết hỗ trợ liên kết</a>
+                            </div>
+                            <div class="col-12 col-md-6 order-md-1">
+                                <img class="w-100" src="assets/images/sec03.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="socu-content-03" class="socu-content socu-content-03">
+                        <div class="container">
+                            <button class="btn-close"></button>
+
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img class="w-100" src="assets/images/img-security.jpg" alt="">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h3>OS・ミドルウェアに関する設定変更</h3>
+                                    <table class="table-os">
+                                        <tbody>
+                                            <tr>
+                                                <td>OS</td>
+                                                <td>Linux（CentOS, Amazon Linux, Red Hat など）、Windows</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ミドルウェア</td>
+                                                <td>Apache、MySQL、PostgreSQL、PHP、など</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h3>サーバーのスケール調整・プラン変更</h3>
+                                    <p class="small">通常時よりもアクセス増によるサーバーの負荷が見込まれる際に､ 現状のリソース状況を見極めてインスタンスタイプの変更やサーバーの増減などの対応をいたします。
+                                    </p>
+                                    <h3>サーバー・ネットワークに関する設定変更</h3>
+                                    <p class="small">運用上必要な設定変更作業（Apache の設定変更や、Security Group の設定追加/ 変更など）が発生した場合、スケジュールを立てて変更作業いたします。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3 mt-md-5">
+                                <p class="small">
+                                    ※ご契約の会社・プランによって有料の場合がございます。※ご契約の会社・プランによって対応していない場合がございます。<br> ※電話・メールサポート対応時間は、平日10:00〜17:00となります。※1つのURLに対してのサポート内容です。（サブドメインは追加となります）
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End Section-->
+                <section id="mate-01" class="block mate-01 socu-main" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <img class="w-100" src="assets/images/sec04.png" alt="">
+                            </div>
+                            <div class="col-12 col-md-6 content-sema">
+                                <h3>MAINTENANCE</h3>
+                                <h2>Luôn cập nhật phần mềm WordPress mới nhất.</h2>
+                                <p>Để cải thiện tính năng và trải nghiệm sử dụng của CMS, chúng tôi thường xuyên cập nhật phần mềm mới nhất. Đồng thời, chúng tôi duy trì một môi trường an toàn thông qua cập nhật các plugin.
+                                </p>
+                                <a class="btn-link open-content" href="#mate-content-01">Cập nhật WordPress</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="mate-content-01" class="socu-content mate-content-02">
+                        <div class="container">
+                            <button class="btn-close"></button>
+
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img class="w-100" src="assets/images/img-wordpress.jpg" alt="">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h3 class="mb-3">マイナーバージョン・アップデート</h3>
+                                    <p class="small">頻繁に行われるWordPressのマイナーバージョンアップデートは、①セキュリティホールが見つかった場合のパッチ・修正、②プログラムの不具合修正 になります。
+                                    </p>
+                                    <h3 class="mt-5 mb-3">プラグイン・アップデート</h3>
+                                    <p class="small">プラグインとはWordPressの機能拡張ツールです。アップデートにより脆弱性を予防します。</p>
+                                    <h3 class="mt-5 mb-3">バージョンアップデート時の設定と確認作業</h3>
+                                    <p class="small">アップデートする際に以下目視確認した上で､ バックアップを取った後実施します。<br> ・サーバーミドルウェア「php」バージョン照合／適応
+                                        <br> ・サーバーミドルウェア「MySQL」バージョン照合／適応
+                                        <br> ・プラグインが対応しているか否か
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-center mt-3 mt-md-5">
+                                <p class="small">※Wordpressのメジャーバージョン・アップデート（大規模なソフトウェア更新）に関しては別途見積もりとなります。</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--End Section-->
+                <section id="mate-02" class="block mate-02 socu-main" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+                    <div class="container">
+                        <div class="row flex-column-reverse flex-md-row">
+                            <div class="col-12 col-md-6 content-sema">
+                                <h3>MAINTENANCE</h3>
+                                <h2>Website・Backup</h2>
+                                <p>Có thể khôi phục lại nguyên vẹn trang web bằng chức năng backup.<br> 標準では14世代分までを保存し､ 14世代以上前は新しいディスクイメージを保存する際に削除されます。
+
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-6 order-md-1">
+                                <img class="w-100" src="assets/images/sec05.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!--End Section-->
+            </div>
+            <section id="faq" class="block faq" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="faq-wrapper">
+                                <div class="titleFAQ">
+                                    <h3>FAQ</h3>
+                                    <h2>Mục hỏi đáp</h2>
+                                </div>
+                                <div class="accordionFAQ" id="accordionFAQ">
+                                    <div class="card">
+                                        <div class="card-header" id="heading1">
+                                            <button class="collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                          <span>バージョンが旧いWordPressを使用しています。その場合でもプランを申し込めますか？</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                可能です。4.9以下のバージョンご利用されている場合は、セキュリティ面からメジャーアップデートが別途必要になります。最新WordPressバージョンの確認は<a href="https://ja.wordpress.org/download/releases/" target="_blank" style="text-decoration: underline;">こちら</a>から。
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="heading2">
+                                            <button class="collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                          <span>申し込んでから開始するまでの期間は、どれくらい？</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                サイト規模にもよりますが、最短で4〜6日です。対象サイトの情報共有、プラグインも含めた現状把握をした後、作業をしていきます。<br /> 開始スケジュールについては、
+                                                <a href="/contact/" style="text-decoration: underline;">お問い合わせフォーム</a>からご相談ください。
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="heading3">
+                                            <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                          <span>会員制サイトをWordPress＋プラグインで構築しています。その場合でもプランを申し込めますか？</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                可能です。掲載のセキュリティ内容は、コーポレートサイトを念頭にしています。会員サイトやWoocommerceプラグインを使用したECサイトなど個人情報を多く扱うサイトについてはヒアリングを行ってからお見積りとなります。お気軽にご相談ください。
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="heading4">
+                                            <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                            <span>プランに加入すると、デザイン変更作業やバナー制作は行ってもらえますか？</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                有償で承っております。メール（電話可）で受付けていますので、あらかじめ内容をお伝えください。
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="heading5">
+                                            <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                            <span>サーバの引っ越しも依頼できますか？</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                可能です。推奨サーバ構成とセキュリティ設計プランをご用意しております。
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="heading6">
+                                            <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                            <span>社内エンジニアがいないため、サーバに障害が起きた場合作業ができません。サーバ対応は可能でしょうか。</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                可能です。ホスティング、VPS、クラウドすべてのお客様へ対応しています。ネットワーク設定や変更､ アクセスとコンテンツ増減に合わせたサーバーのスケール調整など専門技術的な取次することで運用負荷を軽減いたします。
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="heading7">
+                                            <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                            <span>サイトのバックアップは、取ってもらえますか？</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                はい、毎日14世代分までを保存いたします。14世代以上前は新しいディスクイメージを保存する際に削除されます。もしも障害が起こった場合でも再起動、復旧が可能です。※「WPケアPlus」プラン標準。
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="heading8">
+                                            <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                            <span>複数サイト申し込みによる割引などはありますか？</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                割引には対応しておりません。サイト数が増えてもセキュリティ項目に変動はございませんので、ご了承ください。
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-header" id="heading9">
+                                            <button class=" collapsed" type="button" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                            <span>利用していたプラグインが使えなくなった場合のサポートはありますか？</span>
+                                        </button>
+                                        </div>
+
+                                        <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordionFAQ">
+                                            <div class="card-body">
+                                                今まで利用していたプラグインが制作者の都合で利用できなくなった場合は、同等の機能でカバーができそうなプラグインを探しお知らせします。もしくは、開発に必要な見積もりをお送りします。
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="text-center">
+                                    <p>WordPress専用セキュリティ対策プラン</p>
+                                    <a class="btn-contact" href="https://www.fortuna-inc.jp/contact/" target="_blank">相談とお申込みはこちら</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!--End Section-->
+            <section id="prices" class="block prices" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1000">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Lựa chọn gói dịch vụ<br> phù hợp với quy mô website
+                            </h2>
+                        </div>
+                        <div class="col-12 col-md-6 left">
+                            <div class="price-wrapper">
+                                <div class="price-img">
+                                    <img src="assets/images/wp_care_sam_price.png" alt="WPケア">
+                                </div>
+                                <div class="price-content">
+                                    <h3>WP Care</h3>
+                                    <p>Gói bảo mật basic <br />để vận hành an toàn</p>
+                                    <span class="price">¥33,000 <small>(Đã gồm thuế)</small></span>
+                                    <ul class="price-feature">
+                                        <li><span>1 trang web WordPress</span></li>
+                                        <li><span>Ngăn chặn đăng nhập trái phép và phòng tránh tấn công từ bên ngoài.</span></li>
+                                        <li>
+                                            <span>Hỗ trợ khẩn cấp</span>
+                                            <ul>
+                                                <li>Hỗ trợ qua email và điện thoại</li>
+                                            </ul>
+                                        </li>
+                                        <li><span>Cập nhật WordPress</span></li>
+                                        <li><span>Backup trang web</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 right">
+                            <div class="price-wrapper">
+                                <div class="price-img">
+                                    <img src="assets/images/wp_care_plus_sam_price.png" alt="WPケア">
+                                </div>
+                                <div class="price-content">
+                                    <h3>WP Care Plus</h3>
+                                    <p>Duỳ trì nghiêm ngặt <br />và kế hoạch bảo mật mạnh mẽ hơn.</p>
+                                    <span class="price">¥110,000 <small>(Đã gồm thuế)</small></span>
+                                    <ul class="price-feature">
+                                        <li><span>1 trang web WordPress</span></li>
+                                        <li><span>Ngăn chặn đăng nhập trái phép và phòng tránh tấn công từ bên ngoài.</span></li>
+                                        <li>
+                                            <span>Hỗ trợ khẩn cấp</span>
+                                            <ul>
+                                                <li>- Hỗ trợ qua email và điện thoại</li>
+                                                <li>- Hỗ trợ bởi chuyên gia</li>
+                                            </ul>
+                                        </li>
+                                        <li><span>Hỗ trợ liên kết nhà cung cấp máy chủ</span></li>
+                                        <li>
+                                            <span>quản lý - bảo trì</span>
+                                            <ul>
+                                                <li>- Xử lý cấp độ 1 cho sự cố (Khởi động lại và khôi phục).</li>
+                                                <li>- Xử lý cấp độ 2 cho sự cố (Tiến hành điều tra)</li>
+                                                <li>- Thiết kế giám sát</li>
+                                                <li>- Điều tra log</li>
+                                                <li>- Chia sẻ thông tin về các lỗ hổng bảo mật.</li>
+                                                <li>- Cung cấp bảo mật mới nhất</li>
+                                            </ul>
+                                        </li>
+                                        <li><span>Cập nhật WordPress</span></li>
+                                        <li><span>Backup website</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <a class="btn-contact" href="https://www.fortuna-inc.jp/contact/" target="_blank">Kích để nhận tư vấn và đăng ký</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="notices" class="block notices" data-aos="fade-up">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul>
+                                <li>※ Hỗ trợ sự cố, bảo trì chỉ được thực hiện trong giờ làm việc từ thứ Hai đến thứ Sáu, từ 10:00 đến 17:00.</li>
+                                <li>※ Bạn có thể đăng ký từ trang web.</li>
+                                <li>※1 Tùy thuộc máy chủ đang sử dụng, có thể có trường hợp không thể ghi lại lưu lượng.</li>
+                                <li>※2 Trong trường hợp phát hiện dấu hiệu của việc cố gắng truy cập trái phép, chúng tôi sẽ liên lạc với bạn qua
+                                điện thoại hoặc email.</li>
+                                <li>※3 Trong gói dịch vụ "WP Care," nếu có sự cố cấp 1 (Khởi động lại và khôi phục), chi phí xử lý sẽ được tính riêng.</li>
+                                <li>※ Chi phí có thể áp dụng tùy thuộc vào công ty và gói cước bạn đã đăng ký.</li>
+                                <li>※ Có thể không được hỗ trợ tùy thuộc vào công ty và gói cước bạn đã đăng ký.</li>
+                                <li>※ Thời gian hỗ trợ qua điện thoại và email từ 10:00 đến 17:00 thứ Hai đến thứ Sáu.</li>
+                                <li>※ Nội dung hỗ trợ chỉ áp dụng cho một URL. (Subdomain sẽ được tính thêm)</li>
+                                <li>※ Đối với việc nâng cấp phiên bản chính của WordPress (cập nhật phần mềm quy mô lớn), chi phí sẽ được tính riêng.</li>
+                                <li>※ Đối với trang web có nhiều WordPress, chi phí sẽ được tính riêng.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="articles" class="block articles" data-aos="fade-up">
+                <div class="container">
+                    <div class="row article">
+                        <div class="col-12">
+                            <h2>Các bài viết liên quan bảo mật</h2>
+                        </div>
+                        <a href="https://www.fortuna-inc.jp/topic/wordpress-security-practice/" target="_blank" class="col-6 col-md-3 pb-3">
+                            <div class="img" style="background-image:url(https://www.fortuna-inc.jp/wp-content/uploads/2019/06/wordpress-security.jpg);"></div>
+                            <p>WordPressセキュリティを向上させる基本設定と19のチェックリスト</p>
+                        </a>
+                        <a href="https://www.fortuna-inc.jp/topic/security-wordpress-login/" target="_blank" class="col-6 col-md-3 pb-3">
+                            <div class="img" style="background-image:url(https://www.fortuna-inc.jp/wp-content/uploads/2019/06/wordpress-security.jpg);"></div>
+                            <p>WordPressセキュリティを強化する。やるべき5つのルール</p>
+                        </a>
+                        <a href="https://www.fortuna-inc.jp/topic/ssl-certificate-website/" target="_blank" class="col-6 col-md-3 pb-3">
+                            <div class="img" style="background-image:url(https://www.fortuna-inc.jp/wp-content/uploads/2017/10/web-ssl-secure.jpg);"></div>
+                            <p>WebサイトのSSLとは。証明書の種類とサイトにあった証明書の選び方</p>
+                        </a>
+                        <a href="https://www.fortuna-inc.jp/topic/howto-wordpress-maintenance/" target="_blank" class="col-6 col-md-3 pb-3">
+                            <div class="img" style="background-image:url(https://www.fortuna-inc.jp/wp-content/uploads/2017/12/icatch-howto-wordpress-maintenace.jpg);"></div>
+                            <p>これだけは押さえたいWordPressのメンテナンス3つの方法</p>
+                        </a>
+                        <a href="https://www.fortuna-inc.jp/topic/web-ssl-security/" target="_blank" class="col-6 col-md-3 pb-3">
+                            <div class="img" style="background-image:url(https://www.fortuna-inc.jp/wp-content/uploads/2017/10/web-ssl-secure.jpg);"></div>
+                            <p>2017年Webサイト全体をSSL化するメリット</p>
+                        </a>
+                        <a href="https://www.fortuna-inc.jp/topic/45898/" target="_blank" class="col-6 col-md-3 pb-3">
+                            <div class="img" style="background-image:url(https://www.fortuna-inc.jp/wp-content/uploads/2016/04/20.jpg);"></div>
+                            <p>reCAPTCHAとは。WordPressにreCAPTCHAを導入する方法と設定</p>
+                        </a>
+                        <a href="https://www.fortuna-inc.jp/topic/45851/" target="_blank" class="col-6 col-md-3 pb-3">
+                            <div class="img" style="background-image:url(https://www.fortuna-inc.jp/wp-content/uploads/2016/03/wordpress-security-fortuna.jpg);"></div>
+                            <p>悪質ボットからWordPressを守るセキュリティ4つの方法</p>
+                        </a>
+                        <a href="https://www.fortuna-inc.jp/topic/45806/" target="_blank" class="col-6 col-md-3 pb-3">
+                            <div class="img" style="background-image:url(https://www.fortuna-inc.jp/wp-content/uploads/2016/03/o0600060013028052486.jpg);"></div>
+                            <p>サイトセキュリティとWordPressの脆弱性を理解する</p>
+                        </a>
+                    </div>
+                </div>
+
+            </section>
+
+
+        </main>
+        <footer class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-logo">
+                            <div class="wpc-Fortuna_Logo">
+                                <a href="/"><img src="assets/images/fortuna_logo.svg" alt="Fortuna"></a>
+                            </div>
+                            <div class="wpc-Logo">
+                                <img src="assets/images/WPcare_logo_head.png" alt="Wordpres Care">
+                            </div>
+                        </div>
+                        <div class="copyright">© 2020 WEB制作とマーケティング フォチューナ All rights reserved</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="assets/vendor/jquery-3.4.1.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendor/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
